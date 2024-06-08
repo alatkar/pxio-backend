@@ -1,0 +1,1 @@
+web: gunicorn apis:app -w 1 --access-logfile=-
